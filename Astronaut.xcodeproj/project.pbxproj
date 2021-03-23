@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D6F92932609C52B00393935 /* AstronautDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6F92922609C52B00393935 /* AstronautDetailViewModel.swift */; };
+		8D6F92B02609F14500393935 /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6F92AF2609F14500393935 /* CustomErrors.swift */; };
 		8D72D03326081DC70069BAE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72D03226081DC70069BAE0 /* AppDelegate.swift */; };
 		8D72D03526081DC70069BAE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72D03426081DC70069BAE0 /* SceneDelegate.swift */; };
-		8D72D03726081DC70069BAE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72D03626081DC70069BAE0 /* ViewController.swift */; };
-		8D72D03A26081DC70069BAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D72D03826081DC70069BAE0 /* Main.storyboard */; };
 		8D72D03C26081DCA0069BAE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D72D03B26081DCA0069BAE0 /* Assets.xcassets */; };
 		8D72D03F26081DCA0069BAE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D72D03D26081DCA0069BAE0 /* LaunchScreen.storyboard */; };
 		8D72D04A26081DCB0069BAE0 /* AstronautTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72D04926081DCB0069BAE0 /* AstronautTests.swift */; };
 		8D72D05526081DCB0069BAE0 /* AstronautUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72D05426081DCB0069BAE0 /* AstronautUITests.swift */; };
+		8D72D06626081F9F0069BAE0 /* HomeScreens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D72D06526081F9F0069BAE0 /* HomeScreens.storyboard */; };
+		8D72D0712608A4B40069BAE0 /* AstronaustsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72D0702608A4B40069BAE0 /* AstronaustsListTableViewController.swift */; };
+		8D72D0762608A5360069BAE0 /* AstronautDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72D0752608A5360069BAE0 /* AstronautDetailViewController.swift */; };
+		8D72D07B2608A5E10069BAE0 /* AstronautTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72D07A2608A5E10069BAE0 /* AstronautTableViewCell.swift */; };
+		8D72D0802608A87B0069BAE0 /* AstronautViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72D07F2608A87B0069BAE0 /* AstronautViewModel.swift */; };
+		8D72D0872608A90A0069BAE0 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72D0852608A90A0069BAE0 /* Strings.swift */; };
+		8D72D0982608A96B0069BAE0 /* ActivityIndicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72D0972608A96B0069BAE0 /* ActivityIndicators.swift */; };
+		8D72D0A42608AA050069BAE0 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72D0A32608AA050069BAE0 /* APIService.swift */; };
+		8D72D0AA2608AB720069BAE0 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72D0A92608AB720069BAE0 /* Astronaut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D6F92922609C52B00393935 /* AstronautDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailViewModel.swift; sourceTree = "<group>"; };
+		8D6F92AF2609F14500393935 /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
 		8D72D02F26081DC70069BAE0 /* Astronaut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astronaut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D72D03226081DC70069BAE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D72D03426081DC70069BAE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D72D03626081DC70069BAE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D72D03926081DC70069BAE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D72D03B26081DCA0069BAE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D72D03E26081DCA0069BAE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D72D04026081DCA0069BAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		8D72D05026081DCB0069BAE0 /* AstronautUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronautUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D72D05426081DCB0069BAE0 /* AstronautUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautUITests.swift; sourceTree = "<group>"; };
 		8D72D05626081DCB0069BAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D72D06526081F9F0069BAE0 /* HomeScreens.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreens.storyboard; sourceTree = "<group>"; };
+		8D72D0702608A4B40069BAE0 /* AstronaustsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronaustsListTableViewController.swift; sourceTree = "<group>"; };
+		8D72D0752608A5360069BAE0 /* AstronautDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailViewController.swift; sourceTree = "<group>"; };
+		8D72D07A2608A5E10069BAE0 /* AstronautTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautTableViewCell.swift; sourceTree = "<group>"; };
+		8D72D07F2608A87B0069BAE0 /* AstronautViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautViewModel.swift; sourceTree = "<group>"; };
+		8D72D0852608A90A0069BAE0 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		8D72D0972608A96B0069BAE0 /* ActivityIndicators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicators.swift; sourceTree = "<group>"; };
+		8D72D0A32608AA050069BAE0 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		8D72D0A92608AB720069BAE0 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +117,20 @@
 		8D72D03126081DC70069BAE0 /* Astronaut */ = {
 			isa = PBXGroup;
 			children = (
+				8D72D0A82608AB610069BAE0 /* Objects */,
+				8D72D0A22608A9EE0069BAE0 /* Supporting Classes */,
+				8D72D08C2608A94F0069BAE0 /* Helpers */,
 				8D72D03226081DC70069BAE0 /* AppDelegate.swift */,
 				8D72D03426081DC70069BAE0 /* SceneDelegate.swift */,
-				8D72D03626081DC70069BAE0 /* ViewController.swift */,
-				8D72D03826081DC70069BAE0 /* Main.storyboard */,
 				8D72D03B26081DCA0069BAE0 /* Assets.xcassets */,
 				8D72D03D26081DCA0069BAE0 /* LaunchScreen.storyboard */,
 				8D72D04026081DCA0069BAE0 /* Info.plist */,
+				8D72D06526081F9F0069BAE0 /* HomeScreens.storyboard */,
+				8D6F92922609C52B00393935 /* AstronautDetailViewModel.swift */,
+				8D72D0702608A4B40069BAE0 /* AstronaustsListTableViewController.swift */,
+				8D72D0752608A5360069BAE0 /* AstronautDetailViewController.swift */,
+				8D72D07A2608A5E10069BAE0 /* AstronautTableViewCell.swift */,
+				8D72D07F2608A87B0069BAE0 /* AstronautViewModel.swift */,
 			);
 			path = Astronaut;
 			sourceTree = "<group>";
@@ -126,6 +151,32 @@
 				8D72D05626081DCB0069BAE0 /* Info.plist */,
 			);
 			path = AstronautUITests;
+			sourceTree = "<group>";
+		};
+		8D72D08C2608A94F0069BAE0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8D72D0852608A90A0069BAE0 /* Strings.swift */,
+				8D72D0972608A96B0069BAE0 /* ActivityIndicators.swift */,
+				8D6F92AF2609F14500393935 /* CustomErrors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8D72D0A22608A9EE0069BAE0 /* Supporting Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8D72D0A32608AA050069BAE0 /* APIService.swift */,
+			);
+			path = "Supporting Classes";
+			sourceTree = "<group>";
+		};
+		8D72D0A82608AB610069BAE0 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				8D72D0A92608AB720069BAE0 /* Astronaut.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D72D03F26081DCA0069BAE0 /* LaunchScreen.storyboard in Resources */,
+				8D72D06626081F9F0069BAE0 /* HomeScreens.storyboard in Resources */,
 				8D72D03C26081DCA0069BAE0 /* Assets.xcassets in Resources */,
-				8D72D03A26081DC70069BAE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +309,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D72D03726081DC70069BAE0 /* ViewController.swift in Sources */,
+				8D72D07B2608A5E10069BAE0 /* AstronautTableViewCell.swift in Sources */,
+				8D6F92B02609F14500393935 /* CustomErrors.swift in Sources */,
+				8D72D0712608A4B40069BAE0 /* AstronaustsListTableViewController.swift in Sources */,
+				8D72D0872608A90A0069BAE0 /* Strings.swift in Sources */,
+				8D72D0802608A87B0069BAE0 /* AstronautViewModel.swift in Sources */,
+				8D72D0982608A96B0069BAE0 /* ActivityIndicators.swift in Sources */,
+				8D6F92932609C52B00393935 /* AstronautDetailViewModel.swift in Sources */,
+				8D72D0762608A5360069BAE0 /* AstronautDetailViewController.swift in Sources */,
 				8D72D03326081DC70069BAE0 /* AppDelegate.swift in Sources */,
+				8D72D0AA2608AB720069BAE0 /* Astronaut.swift in Sources */,
+				8D72D0A42608AA050069BAE0 /* APIService.swift in Sources */,
 				8D72D03526081DC70069BAE0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +356,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8D72D03826081DC70069BAE0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D72D03926081DC70069BAE0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D72D03D26081DCA0069BAE0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
