@@ -94,6 +94,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D6F92BA2609FD4400393935 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D72D0702608A4B40069BAE0 /* AstronaustsListTableViewController.swift */,
+				8D72D0752608A5360069BAE0 /* AstronautDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8D6F92BB2609FD5600393935 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8D6F92922609C52B00393935 /* AstronautDetailViewModel.swift */,
+				8D72D07F2608A87B0069BAE0 /* AstronautViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8D6F92BC2609FD6600393935 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8D72D03D26081DCA0069BAE0 /* LaunchScreen.storyboard */,
+				8D72D06526081F9F0069BAE0 /* HomeScreens.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8D6F92C02609FDA200393935 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D72D07A2608A5E10069BAE0 /* AstronautTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8D72D02626081DC70069BAE0 = {
 			isa = PBXGroup;
 			children = (
@@ -117,20 +152,17 @@
 		8D72D03126081DC70069BAE0 /* Astronaut */ = {
 			isa = PBXGroup;
 			children = (
+				8D6F92C02609FDA200393935 /* Views */,
+				8D6F92BC2609FD6600393935 /* Storyboards */,
+				8D6F92BB2609FD5600393935 /* ViewModels */,
+				8D6F92BA2609FD4400393935 /* ViewControllers */,
 				8D72D0A82608AB610069BAE0 /* Objects */,
 				8D72D0A22608A9EE0069BAE0 /* Supporting Classes */,
 				8D72D08C2608A94F0069BAE0 /* Helpers */,
 				8D72D03226081DC70069BAE0 /* AppDelegate.swift */,
 				8D72D03426081DC70069BAE0 /* SceneDelegate.swift */,
 				8D72D03B26081DCA0069BAE0 /* Assets.xcassets */,
-				8D72D03D26081DCA0069BAE0 /* LaunchScreen.storyboard */,
 				8D72D04026081DCA0069BAE0 /* Info.plist */,
-				8D72D06526081F9F0069BAE0 /* HomeScreens.storyboard */,
-				8D6F92922609C52B00393935 /* AstronautDetailViewModel.swift */,
-				8D72D0702608A4B40069BAE0 /* AstronaustsListTableViewController.swift */,
-				8D72D0752608A5360069BAE0 /* AstronautDetailViewController.swift */,
-				8D72D07A2608A5E10069BAE0 /* AstronautTableViewCell.swift */,
-				8D72D07F2608A87B0069BAE0 /* AstronautViewModel.swift */,
 			);
 			path = Astronaut;
 			sourceTree = "<group>";
